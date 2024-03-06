@@ -1,0 +1,466 @@
+
+@media screen and (max-width:1055px){
+
+    .container{
+        padding: 0px 10px;
+    }
+
+    .banner h1{
+        font-size: 50px;
+    }
+
+
+    .features-card{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .features-sub-card{
+        align-items: center;
+        width: 100%;
+    }
+
+    .features-sub-card p{
+        text-align: center;
+    }
+
+    .features-card-main{
+        max-width: 147px;
+        align-items: center;
+    }
+
+    .features-card-main p{
+        text-align: center;
+    }
+
+
+    .section-heading{
+        align-items: center;
+    }
+
+
+    .section-heading p{
+        text-align: center;
+    }
+
+    .section-heading h2{
+        text-align: center;
+    }
+
+    .course-list{
+        justify-content: center;
+    }
+
+
+    .product-n{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .product-cover{
+        width: auto;
+        
+    }
+
+    .product-banner{
+        width: 350px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+   
+}
+
+
+
+@media screen and (max-width:935px){
+
+    .footer-section{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    label.open-menu{
+        display: block;
+        font-size: 30px;
+    }
+
+
+    .hamburger-menu{
+        display: flex;
+    }
+
+
+    .flex-navbar{
+        display: none;
+    }
+
+
+    
+
+
+    .banner h1{
+        font-size: 40px;
+        line-height: 47px;
+
+    }
+
+    .video-text-area{
+        font-size: 30px;
+    }
+    
+
+    .team{
+        align-items: center;
+    }
+
+    .member{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+
+
+    .features-card, .video-section, .product-offerings-section, .team, .bottom-banner-section{
+        padding-top: 100px ;
+    }
+
+    .review{
+        padding-top: 100px;
+    }
+
+    .product-offerings-section,  .team {
+        gap: 60px;
+    }
+
+    .review{
+        gap: 25px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    .footer-section{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+  
+.banner h1{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.banner h4 {
+    font-size: 16px;
+}
+
+   
+
+    .video-text-area{
+        font-size: 25px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:680px){
+
+    .banner-discription-area{
+        margin-top: 0px;
+        padding: 45px 0px;
+    }
+    
+
+    .banner-image-section{
+        display: none;
+        visibility: hidden;
+    }
+
+    .banner-content-section{
+        width: 100%;
+        max-width: none;
+
+    }
+
+    .banner-discription-area{
+        align-items: center;
+        text-align: center;
+    }
+
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .video-text-area{
+        font-size: 15px;
+    }
+
+    .video-text-area p {
+        font-size: 11px;
+    }
+
+
+    .course-list{
+        flex-direction: column;
+    }
+
+    .product-n{
+        display:flex;
+        flex-direction:row;
+    }
+
+    .product-cover{
+        width: 209px;
+        position: relative;
+    }
+
+    .product-banner{
+        max-width: 100%;
+        height: fit-content;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:573px){
+
+    .footer-section{
+        grid-template-columns: 1fr 2fr;
+    }
+
+    #sidebar-login-button{
+        visibility: visible;
+        font-size: 19px;
+        padding: 0px;
+    }
+
+    #navbar-login-button{
+        display: none;
+    } 
+
+    #sidebar-login-button{
+        display: block;
+        color: #806565;
+        top: 4%;
+        left: 42%;
+        border: 1px solid #8c7575;
+        width: 138px;
+        height: 35px;
+        margin-top: 17px;
+    }
+
+
+    .video-section{display: flex;
+    flex-direction: column-reverse;
+align-items: center;}
+
+    .video-text-area{
+        padding: 0px;
+        font-size: 30px;
+        align-items: center;
+}
+
+    .video-text-area p{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .video-text-area h2{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    
+
+
+    .btn-with-curve, .trans-btn{
+        font-size: 14px;
+   }
+
+
+
+   .features-card h2{
+       font-size: 30px;
+   }
+
+   .features-card h5{
+       font-size: 14px;
+   }
+
+   .subfeatures{
+      width: 100%;
+   }
+
+   .product-offerings-section{
+       align-items: center;
+   }
+
+   .course-list{
+       flex-direction: column;
+       gap: 64px;
+   }
+
+   .product-n{
+       display:flex;
+       flex-direction:column;
+       max-width: 318px;
+   }
+
+   .product-cover{
+      width: auto;
+   }
+
+   .product-banner{
+     width: 300px;
+     height: 150px;
+     object-fit: cover;
+   }
+}
+
+
+
+
+
+@media screen  and (max-width:480px) {
+
+    .subfeatures{
+        gap: 0px;
+        justify-content: space-around;
+    }
+
+    .features-card-main{
+        padding:34px 10px;
+    }
+
+
+    .banner h5{
+        font-size: 12px;
+    }
+
+
+    :root{
+        --bar-width: 29px;
+    --bar-height: 5px;
+    --hamburger-gap: 3px;
+    }
+
+    .flex-header h3{
+
+        font-size: 22px;
+
+    }
+
+    #joinus-button{
+        font-size: 13px;
+        gap: 7px;
+        padding: 13px 16px;
+    }
+
+
+    .btn-with-curve, .trans-btn{
+        font-size: 10px;
+   }
+
+
+
+   .features-card h2{
+       font-size: 25px;
+   }
+
+   .features-card h5{
+       font-size: 12px;
+   }
+
+
+
+    .features-card p{
+        font-size: 10px;
+    }
+
+    .member{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    
+    .section-heading h2{
+
+        font-size: 29px;
+
+    }
+
+    .section-heading p, .example-n p{
+        font-size: 12px;
+    }
+
+
+    .member{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+
+    .team{
+        gap: 60px;
+    }
+
+    .review{
+        gap: 30px;
+    }
+
+    .example-n,.testimonials{
+        gap: 0px;
+    }
+
+
+    .copyright-section{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .copyright-section p{
+        text-align: center;
+    }
+
+
+    .video-text-area{
+        font-size: 25px;
+    }
+
+    .section-heading h2{
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width:380px){
+    .footer-section{
+        grid-template-columns: 1fr;
+    }
+
+
+
+
+   
+}
+
+
